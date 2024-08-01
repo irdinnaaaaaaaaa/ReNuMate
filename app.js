@@ -26,9 +26,9 @@ app.use(session({
 
 // Create MySQL connection
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
+    host: 'mysql-homeowners.alwaysdata.net',
+    user: '371140',
+    password: 'Nellyisabear@2',
     port: 3306,
     database: 'homeowners_renumate'
 });
